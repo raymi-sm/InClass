@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'Angelina';
+    src: url('fonts/Angelina/angelina-webfont.eot');
+    src: url('fonts/Angelina/angelina-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Angelina/angelina-webfont.woff') format('woff'),
+         url('fonts/Angelina/angelina-webfont.ttf') format('truetype'),
+         url('fonts/Angelina/angelina-webfont.svg#AngelinaRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, nav ul, nav ol {
+	border: 0;
+	font: inherit;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+*{ margin: 0; padding: 0; }
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+a{ text-decoration: none; }
+
+body{ background: url("../images/container-bg.jpg"); color: white; font-family: Helvetica Neue, Helvetica; }
+
+header{ background: url("../images/barPattern.jpg") repeat-x; margin: 0px; }
+
+.container{ margin: 0 auto; width: 80%; }
+
+.floated{ display: inline-block; vertical-align: top; }
+
+.main-content{ width: 94.74%; margin: auto; }
+
+.menu a{ font-size: 1.25em; } /* 22px / 16px */
+
+.primary{ width: 36.96%; } /* 360px / 974px */
+
+	.primary h1{ width: 94.44%;  } /* 340px / 360px */
+
+.secondary{ width: 57.49%;  } /* 560px / 974px */
+
+
+#ipad-iphone{ width: 68.63%; } /* 221px / 322px */
+
+	#ipad-iphone img, .primary h1 img { max-width: 100%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
